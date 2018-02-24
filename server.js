@@ -5,6 +5,12 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var content={
+    title:'Article one|abhishek pandey',
+    heading:'Article one',
+    date:'Feb 24,2018 '
+}
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
