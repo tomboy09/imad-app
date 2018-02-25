@@ -26,7 +26,7 @@ button.onclick=function(){
             if(request.status===200){
                var counter=request.responseText;
                 var span=document.getElementById('count');
-                console.log(span.toString())
+                
                 span.innerHTML=counter.toString();
             }
         }
@@ -34,6 +34,6 @@ button.onclick=function(){
     };
     //make the request
     request.open('GET','http://http://abhishekpandey09041998.imad.hasura-app.io/counter',true);
-    request.send(null);
+    
 };
 
