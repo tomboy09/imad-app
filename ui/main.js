@@ -33,7 +33,7 @@ button.onclick=function(){
         
     };
     //make the request
-    request.open('GET','http://http://abhishekpandey09041998.imad.hasura-app.io/counter',true);
-    
+    request.open('GET','http://abhishekpandey09041998.imad.hasura-app.io/counter',true);
+    request.send(null);
 };
 
