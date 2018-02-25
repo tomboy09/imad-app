@@ -26,8 +26,8 @@ button.onclick=function(){
             //take some action
             if(request.status===200){
                var counter= request.responseText;
+               counter=counter+1;
                 var span=document.getElementById('count');
-                counter=counter+1;
                 span.innerHTML=counter.toString();
             }
         }
