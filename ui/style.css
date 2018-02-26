@@ -1,12 +1,11 @@
 body {
     font-family: sans-serif;
-    background-color:silver;
   animation: pulse 5s infinite;
 }
 
 @keyframes pulse {
   0% {
-    background-color: #001F3F;
+    background-color:silver;
   }
   100% {
     background-color: #000000;
