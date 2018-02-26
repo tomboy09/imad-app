@@ -27,6 +27,7 @@ body {
 
 .img-medium {
     height: 200px;
+    background-image: url("ui/wanderer.jpg")
 }
 .container{
            max-width: 800px;
