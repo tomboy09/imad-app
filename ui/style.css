@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     background-color:silver;
+    animation-timing-function: ease-in-out;
 }
 
 .center {
