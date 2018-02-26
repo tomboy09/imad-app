@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-image:url('ui/wanderer.jpg')no-repeat center center;
+    background:url('ui/wanderer.jpg')no-repeat center center;
     background-color:#000000;
     background-size:cover;
     margin-top: 75px;
