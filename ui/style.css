@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     background-color:#000000;
+     background-image: url('ui/wanderer.jpg');
 }
 
 .center {
